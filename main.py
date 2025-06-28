@@ -54,7 +54,7 @@ response = rag.retrieval_query(
             # rag_file_ids=["rag-file-1", "rag-file-2", ...],
         )
     ],
-    text="What is RAG and why it is helpful?",
+    text="berikan kepadaku salah satu data booking yang ada",
     rag_retrieval_config=rag_retrieval_config,
 )
 print(response)
